@@ -126,7 +126,7 @@ Streamlit Deployment
 
 ### Correlation Heatmap
 
-![Heatmap](screenshots/heatmap.png)
+![Heatmap](C:\Users\sinha\Downloads\customer-churn-prediction\screenshots\Heatmap.png)
 
 ---
 
@@ -150,13 +150,13 @@ The following models were evaluated:
 
 ## 📊 Model Comparison
 
-![Model Comparison](screenshots/model_comparison.png)
+![Model Comparison](C:\Users\sinha\Downloads\customer-churn-prediction\screenshots\Heatmap.png)
 
 ---
 
 ## 📉 ROC Curve
 
-![ROC Curve](screenshots/roc_curve.png)
+![ROC Curve]("C:\Users\sinha\Downloads\customer-churn-prediction\screenshots\ROC Curve.png")
 
 ---
 
@@ -169,12 +169,6 @@ Top factors influencing churn:
 * Monthly Charges
 * Total Charges
 * Internet Service
-
-### Feature Importance Chart
-
-![Feature Importance](screenshots/feature_importance.png)
-
----
 
 ## 💡 Key Business Insights
 
@@ -204,13 +198,13 @@ Customers using Tech Support services churn less frequently.
 
 ### Home Page
 
-![Application](screenshots/app_home.png)
+![Application] ("C:\Users\sinha\OneDrive\Pictures\Screenshots\Screenshot 2026-06-08 223349.png")
 
 ---
 
 ### Prediction Example
 
-![Prediction](screenshots/prediction_result.png)
+![Prediction]("C:\Users\sinha\OneDrive\Pictures\Screenshots\Screenshot 2026-06-08 223406.png")
 
 ---
 
@@ -281,7 +275,7 @@ streamlit run app.py
 Add your deployed Streamlit URL here:
 
 
-https://your-app-name.streamlit.app
+https://customer-churn-prediction-hpjbqsbwxgxbyezegsepyk.streamlit.app/
 
 
 ---
