@@ -1,100 +1,124 @@
 # 📊 Customer Churn Prediction System
 
-An end-to-end Machine Learning project that predicts whether a telecom customer is likely to churn based on customer demographics, services, billing information, and contract details.
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange)
+![Streamlit](https://img.shields.io/badge/Streamlit-Web%20App-red)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
 
 ---
 
-## 🚀 Project Overview
+# 🚀 Customer Churn Prediction Using Machine Learning
 
-Customer churn is one of the biggest challenges faced by telecom companies. Retaining existing customers is significantly cheaper than acquiring new ones.
+An end-to-end Machine Learning project that predicts whether a telecom customer is likely to churn based on customer demographics, subscription details, contract type, and billing information.
 
-This project uses Machine Learning to:
+This project combines:
 
-- Identify customers likely to churn
-- Analyze key churn drivers
-- Generate business insights
-- Provide real-time predictions through a Streamlit web application
+✅ Data Cleaning
+
+✅ Exploratory Data Analysis (EDA)
+
+✅ Feature Engineering
+
+✅ Machine Learning Modeling
+
+✅ Streamlit Deployment
+
+✅ Business Insights
 
 ---
 
 ## 🎯 Business Problem
 
-Telecom companies lose revenue when customers leave their services.
+Customer churn is one of the biggest challenges faced by telecom companies.
 
-The objective of this project is to:
+Acquiring a new customer is significantly more expensive than retaining an existing one.
 
-- Predict customer churn
-- Identify high-risk customers
-- Support retention strategies
-- Improve customer lifetime value
-
----
-
-## 🛠️ Technologies Used
-
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-Learn
-- Streamlit
-- Joblib
-- Git & GitHub
+The goal of this project is to identify customers who are likely to leave the company so proactive retention strategies can be implemented.
 
 ---
 
 ## 📂 Dataset
 
-Dataset: IBM Telco Customer Churn Dataset
+**Dataset:** IBM Telco Customer Churn Dataset
 
-Features Include:
+### Features
 
-- Gender
-- Senior Citizen
-- Partner
-- Dependents
-- Tenure
-- Phone Service
-- Multiple Lines
-- Internet Service
-- Online Security
-- Online Backup
-- Device Protection
-- Tech Support
-- Streaming TV
-- Streaming Movies
-- Contract Type
-- Paperless Billing
-- Payment Method
-- Monthly Charges
-- Total Charges
+* Gender
+* Senior Citizen
+* Partner
+* Dependents
+* Tenure
+* Phone Service
+* Multiple Lines
+* Internet Service
+* Online Security
+* Online Backup
+* Device Protection
+* Tech Support
+* Streaming TV
+* Streaming Movies
+* Contract Type
+* Paperless Billing
+* Payment Method
+* Monthly Charges
+* Total Charges
 
-Target Variable:
+### Target Variable
 
-- Churn (Yes / No)
+**Churn**
+
+* Yes
+* No
+
+---
+
+## ⚙️ Tech Stack
+
+### Programming
+
+* Python
+
+### Libraries
+
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-Learn
+* Joblib
+
+### Deployment
+
+* Streamlit
+
+### Version Control
+
+* Git
+* GitHub
 
 ---
 
 ## 🔄 Project Workflow
 
+
 Data Collection
-↓
+        ↓
 Data Cleaning
-↓
+        ↓
 Data Preprocessing
-↓
-Exploratory Data Analysis (EDA)
-↓
+        ↓
+Exploratory Data Analysis
+        ↓
 Feature Engineering
-↓
+        ↓
 Model Training
-↓
+        ↓
 Model Evaluation
-↓
-Model Comparison
-↓
+        ↓
+Churn Prediction
+        ↓
 Streamlit Deployment
+
 
 ---
 
@@ -104,55 +128,47 @@ Streamlit Deployment
 
 ![Heatmap](screenshots/heatmap.png)
 
-### Churn Distribution
-
-(Add Screenshot Here)
-
 ---
 
 ## 🤖 Machine Learning Models
 
-The following models were trained and compared:
+The following models were evaluated:
 
-- Logistic Regression
-- Decision Tree Classifier
-- Random Forest Classifier
+* Logistic Regression
+* Decision Tree Classifier
+* Random Forest Classifier
 
-### Model Comparison
+### Best Performing Model
 
-![Model Comparison](screenshots/model_comparison.png)
-
----
-
-## 📊 Model Performance
-
-### Best Model
-
-Random Forest Classifier
+🏆 Random Forest Classifier
 
 ### Accuracy
 
 **79.56%**
 
-### ROC Curve
+---
+
+## 📊 Model Comparison
+
+![Model Comparison](screenshots/model_comparison.png)
+
+---
+
+## 📉 ROC Curve
 
 ![ROC Curve](screenshots/roc_curve.png)
-
-### Confusion Matrix
-
-(Add Screenshot Here)
 
 ---
 
 ## 🔥 Feature Importance
 
-Top factors affecting customer churn:
+Top factors influencing churn:
 
-- Contract Type
-- Tenure
-- Monthly Charges
-- Total Charges
-- Internet Service
+* Contract Type
+* Tenure
+* Monthly Charges
+* Total Charges
+* Internet Service
 
 ### Feature Importance Chart
 
@@ -160,54 +176,68 @@ Top factors affecting customer churn:
 
 ---
 
-## 💡 Business Insights
+## 💡 Key Business Insights
 
-### Key Findings
+### Finding #1
 
-1. Customers with Month-to-Month contracts have the highest churn rate.
+Customers with Month-to-Month contracts have the highest churn rate.
 
-2. Customers with low tenure are more likely to churn.
+### Finding #2
 
-3. High monthly charges increase churn probability.
+Customers with lower tenure are more likely to churn.
 
-4. Long-term contracts improve customer retention.
+### Finding #3
 
-5. Customers with Tech Support services churn less frequently.
+Higher monthly charges are associated with increased churn risk.
+
+### Finding #4
+
+Long-term contracts improve customer retention.
+
+### Finding #5
+
+Customers using Tech Support services churn less frequently.
 
 ---
 
-## 🖥️ Streamlit Application
+## 🖥️ Streamlit Web Application
 
-### Application Home Page
+### Home Page
 
-![App Home](screenshots/app_home.png)
+![Application](screenshots/app_home.png)
 
-### Prediction Result
+---
 
-![Prediction Result](screenshots/prediction_result.png)
+### Prediction Example
 
-### Features
+![Prediction](screenshots/prediction_result.png)
 
-- Real-Time Churn Prediction
-- Churn Probability Score
-- Customer Risk Classification
-- Interactive User Interface
+---
+
+## ✨ Application Features
+
+* Real-Time Churn Prediction
+* Churn Probability Score
+* Customer Risk Classification
+* Interactive Dashboard
+* Business-Oriented Insights
 
 ---
 
 ## 📁 Project Structure
 
-```text
 customer-churn-prediction/
 
-├── data/
-│
-├── notebooks/
-│   └── churn_analysis.ipynb
-│
+├── app.py
+├── requirements.txt
+├── README.md
+
 ├── models/
 │   └── churn_model.pkl
-│
+
+├── notebooks/
+│   └── churn_analysis.ipynb
+
 ├── screenshots/
 │   ├── heatmap.png
 │   ├── model_comparison.png
@@ -215,80 +245,65 @@ customer-churn-prediction/
 │   ├── feature_importance.png
 │   ├── app_home.png
 │   └── prediction_result.png
-│
-├── app.py
-├── requirements.txt
-├── README.md
-│
-└── .gitignore
-```
+
 
 ---
 
 ## ▶️ Installation
 
-Clone Repository
+Clone the repository
 
-```bash
-git clone https://github.com/YOUR_USERNAME/customer-churn-prediction.git
-```
 
-Move into project directory
+git clone https://github.com/akank275/customer-churn-prediction.git
 
-```bash
+
+Move into the project directory
+
 cd customer-churn-prediction
-```
+
 
 Install dependencies
 
-```bash
+
 pip install -r requirements.txt
-```
 
-Run Streamlit App
 
-```bash
+Run the application
+
+
 streamlit run app.py
-```
+
 
 ---
 
-## 🌐 Deployment
+## 🌐 Live Demo
 
-Streamlit Cloud Deployment:
+Add your deployed Streamlit URL here:
 
-Add your deployed Streamlit URL here.
-
-Example:
 
 https://your-app-name.streamlit.app
 
----
-
-## 📌 Future Improvements
-
-- XGBoost Implementation
-- Hyperparameter Tuning
-- SHAP Explainability
-- Power BI Dashboard
-- Customer Retention Recommendation Engine
 
 ---
 
-## 👨‍💻 Author
+## 🚀 Future Enhancements
 
-Akanksha Kumari Sinha
+* Hyperparameter Tuning
+* XGBoost Implementation
+* SHAP Explainability
+* Power BI Dashboard
+* Automated Retention Recommendations
+
+---
+
+## 👩‍💻 Author
+
+### Akanksha Kumari Sinha
 
 Aspiring Data Analyst | Python | SQL | Power BI | Machine Learning
 
-LinkedIn:
-(Add LinkedIn URL)
-
-GitHub:
-(Add GitHub URL)
-
 ---
 
-## ⭐ If you found this project useful
+## ⭐ Support
 
-Please consider giving it a star on GitHub.
+If you found this project useful, consider giving it a ⭐ on GitHub.
