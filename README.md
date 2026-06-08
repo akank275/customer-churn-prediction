@@ -126,7 +126,7 @@ Streamlit Deployment
 
 ### Correlation Heatmap
 
-C:\Users\sinha\Downloads\customer-churn-prediction\screenshots\Heatmap.png
+![Heatmap](screenshots/Heatmap.png)
 
 ---
 
@@ -150,13 +150,13 @@ The following models were evaluated:
 
 ## 📊 Model Comparison
 
-C:\Users\sinha\Downloads\customer-churn-prediction\screenshots\Heatmap.png
+![Model Comparison](screenshots/Model%20comparisons.png)
 
 ---
 
 ## 📉 ROC Curve
 
-"C:\Users\sinha\Downloads\customer-churn-prediction\screenshots\ROC Curve.png"
+![ROC Curve](screenshots/ROC%20Curve.png)
 
 ---
 
@@ -198,13 +198,13 @@ Customers using Tech Support services churn less frequently.
 
 ### Home Page
 
-"C:\Users\sinha\OneDrive\Pictures\Screenshots\Screenshot 2026-06-08 223349.png"
+![Home Page](screenshots/Home%20page.png)
 
 ---
 
 ### Prediction Example
 
-"C:\Users\sinha\OneDrive\Pictures\Screenshots\Screenshot 2026-06-08 223406.png"
+![Prediction Example](screenshots/Prediction.png)
 
 ---
 
